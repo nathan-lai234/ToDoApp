@@ -14,7 +14,7 @@ export class AppComponent {
   addTodo(){
     const text = this.newTodo.trim();
 
-    if(this.title.length > 0){
+    if(text.length > 0){
       this.todos.push({text});
     }
     console.log(this.todos);
